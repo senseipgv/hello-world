@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    padding-top: 80px; 
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #b23a48; 
+    color: white;
+    padding: 20px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+h1,h2{
+    text-align: center;
+}
+
+main {
+    background-color: #FCE4EC; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 80px; 
+}
+
+#math-symbols span {
+    font-size: 48px;
+    margin: 10px;
+    color: #F06292; 
+    display: inline-block;
+}
+
+#greeting {
+    margin-top: 20px;
+}
+
+#message {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #EC407A;
+}
+
+
+
+footer {
+    background-color: #b23a48; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
